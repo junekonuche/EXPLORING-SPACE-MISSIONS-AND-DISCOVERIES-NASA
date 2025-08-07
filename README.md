@@ -1,2 +1,40 @@
-# EXPLORING-SPACE-MISSIONS-AND-DISCOVERIES-NASA
-A Data-driven story from NASA's Archives
+# 🚀 Exploring Space Missions and Discoveries: A Data-driven Story from NASA's Archives
+
+## 🛰️ Project Overview
+
+This project explores NASA’s rich archive of space missions, exoplanet discoveries, and celestial observations through a data-driven lens. With a focus on storytelling and analysis, the project showcases how historical and recent mission data can reveal patterns in launch frequency, technology trends, and astronomical findings.
+
+By integrating tools from Python, Excel, SQL, and Tableau, we aim to bring insights to life and inspire curiosity about our universe.
+
+---
+
+## 🎯 Goal
+
+To demonstrate proficiency in data collection, wrangling, querying, analysis, and visualization across the Python, GENDATA, and PYDATA modules by working on a real-world dataset related to outer space and NASA.
+
+---
+
+## 🔍 Problem Statement
+
+How have NASA’s missions and space discoveries evolved over time?  
+What patterns emerge from the frequency, type, and success of these missions?
+
+---
+
+## 🧰 Tools & Technologies Used
+
+| Tool          | Purpose |
+|---------------|---------|
+| **Python**    | Used NASA APIs to collect mission and discovery data |
+| **Excel**     | Performed initial data cleaning and formatting |
+| **SQL**       | Stored cleaned dataset and performed analytical queries |
+| **Tableau**   | Built an interactive dashboard to visualize mission trends |
+| **Pandas** | Data wrangling and numeric analysis |
+| **Matplotlib** | Created 3+ static EDA charts |
+| **Plotly**    | Built an interactive visualization |
+| **Jupyter Notebook** | Used for all code and analysis steps |
+
+---
+
+## 📂 Project Structure
+
