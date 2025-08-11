@@ -37,4 +37,24 @@ What patterns emerge from the frequency, type, and success of these missions?
 ---
 
 ## 📂 Project Structure
+📁 Exploring-Space-Missions-NASA
+├── data_collection/           
+│   └── nasa_data_collector.ipynb   # Pulls exoplanet data from NASA API
+├── excel_cleaning/             
+│   ├── raw_exoplanets.csv          # Raw data fetched from API
+│   └── cleaned_nasa_data.xlsx      # Cleaned dataset
+├── sql/                        
+│   ├── nasa_database.sql
+│   └── sql_queries_results.md
+├── eda_visuals/                
+│   └── space_missions_eda.ipynb
+├── tableau/                    
+│   ├── tableau_dashboard_screenshot.png
+│   └── tableau_dashboard_link.txt
+├── presentation/               
+│   └── final_presentation.pdf
+├── data_dictionary.md          
+├── requirements.txt            
+└── README.md
+
 
