@@ -56,5 +56,56 @@ What patterns emerge from the frequency, type, and success of these missions?
 ├── data_dictionary.md          
 ├── requirements.txt            
 └── README.md
+# 🧹 Excel Cleaning Report (Step 2)
+
+This folder contains the **Excel-cleaned datasets** for the project *Exploring Space Missions and Discoveries: A Data-driven Story from NASA's Archives*.
+
+---
+
+## 🔍 Purpose
+While the Python scripts in **Step 1** already fetched and structured the datasets from NASA APIs, this step demonstrates **manual inspection and cleaning in Microsoft Excel**, as required by the project guidelines.
+
+The goal was to:
+- Check for missing values
+- Standardize formats (dates, numbers, categories)
+- Remove duplicates
+- Validate column names
+- Save a final "Excel-verified" dataset for use in SQL and Tableau
+
+---
+
+## 📑 Files in this Folder
+- `raw_missions.csv` → Direct output from Launch Library API (before Excel cleaning)  
+- `raw_exoplanets.csv` → Direct output from NASA Exoplanet Archive (before Excel cleaning)  
+- `cleaned_nasa_data.xlsx` → Cleaned automatically by Python (Step 1 result)  
+- `cleaned_nasa_data_v2.xlsx` → Final manually verified dataset after Excel inspection (Step 2 result)  
+
+---
+
+## 📝 Cleaning Steps in Excel
+
+### 1. Missions Sheet
+- Standardized column names:  
+  - `vehicle` → `launch_vehicle`  
+  - `agency` → `launch_agency`
+- Converted `launch_date` to proper **Date** format.  
+- Checked for **missing values** in `latitude` / `longitude`.  
+- Removed duplicates on `mission_name + launch_date`.  
+
+### 2. Discoveries Sheet
+- Ensured `discovery_year` is numeric.  
+- Checked for blanks in `planet_radius_earth`, `planet_mass_earth`, `orbital_period_days`.  
+- Converted columns to **numeric types** where needed.  
+- Cleaned categorical values in `discovery_method` (removed trailing spaces).  
+- Validated RA/Dec as `longitude` and `latitude` for mapping.  
+
+---
+
+## ✅ Outcome
+The final file `cleaned_nasa_data_v2.xlsx` is now:
+- Structured
+- Free of duplicates
+- With standardized formats
+- Ready for **Step 3: SQL Storage and Querying**
 
 
