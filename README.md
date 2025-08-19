@@ -15,9 +15,9 @@ To demonstrate proficiency in data collection, wrangling, querying, analysis, an
 ---
 
 ## 🔍 Problem Statement
+“Despite decades of space exploration, we still struggle to answer questions like: Which missions yield the most discoveries for the cost? How have political shifts and private companies changed mission outcomes? What trends can we predict for the future of space exploration?”
 
-How have NASA’s missions and space discoveries evolved over time?  
-What patterns emerge from the frequency, type, and success of these missions?
+
 
 ---
 
@@ -109,6 +109,6 @@ The final file `cleaned_nasa_data_v2.xlsx` is now:
 - Ready for **Step 3: SQL Storage and Querying**
 
 ## Website link
--https://sites.google.com/d/1OiigZ5jhkl_xPCskZ3n0ri5Xb3uT0LKs/p/1kmf7s4V3-pE9e1e-uZTgFgC6qi0px4NF/edit
+-https://sites.google.com/view/exploringspacemissionsanddisco/home
 
 
