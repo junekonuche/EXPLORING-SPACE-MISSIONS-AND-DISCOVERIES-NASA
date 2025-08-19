@@ -109,6 +109,6 @@ The final file `cleaned_nasa_data_v2.xlsx` is now:
 - Ready for **Step 3: SQL Storage and Querying**
 
 ## Website link
--https://sites.google.com/view/exploringspacemissionsanddisco/home
+-https://sites.google.com/view/exploringspacemissionsanddisco/discoveries-and-mission-success?read_current=1
 
 
